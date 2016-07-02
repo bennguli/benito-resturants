@@ -1,0 +1,152 @@
+.no-js{
+    font-family: 'Raleway', sans-serif;
+    background-color: aliceblue;
+}
+
+.table{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: white;
+    align-content: center;
+    width: 800px;
+     border-collapse: separate;
+  border-spacing: 4px;
+       font-stretch:extra-condensed;
+    padding: 20px;
+      background-color: ghostwhite;
+    font-size: 30px;
+}
+
+.table,
+th,
+td {
+  border: 1px solid #cecfd5;
+}
+th,
+td {
+  padding: 10px 15px;
+
+}
+
+
+
+@keyframes slides {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes fontColor {
+    from {
+        color: floralwhite;
+    }
+    to {
+        color: black;
+    }
+}
+h3 {
+    font-family: 'Shrikhand', cursive;
+}
+a {
+    font-family: 'Tillana', cursive;
+    color: cornflowerblue;
+}
+
+/*Navigation*/
+
+#logo {
+    height: 80px;
+    width: 80px;
+    margin: auto;
+}
+nav {
+    background-color: #d5d9c7;
+}
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+/*landing*/
+
+.landing {
+    text-align: center;
+    text-transform: uppercase;
+    background-image: url(../img/insider.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 25%;
+    opacity: 0.5;
+}
+.landing h1 {
+    color: black;
+    font-family: 'Lemonada', cursive;
+    font-size: 80px;
+    animation-name: slides;
+    animation-delay: 3s;
+    opacity: 1;
+}
+
+/*% off*/
+
+.off {
+    text-align: center;
+}
+.off h5 {
+    font-family: 'Lemonada', cursive;
+    padding-top: 4%;
+    font-size: 80px;
+}
+
+/*about*/
+
+.about {
+    padding: 20% 0;
+    text-align: center;
+     border:               1px solid blue;
+}
+
+/*forms*/
+
+.forms {
+    padding: 10% 0;
+}
+
+/*packages*/
+
+.pkg {
+    padding: 2%;
+}
+
+/*gallery images*/
+
+.g_images img {
+    width: 400px;
+    height: 300px;
+    padding: 1%;
+}
+
+/*slider*/
+
+#slider {
+    height: 600px;
+    animation-name: slides;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+
+/*footer*/
+
+footer {
+    background-color: #d5d9c7;
+    text-align: center;
+}
+footer li {
+    display: inline-block;
+}
+#social ul,
+#contact ul {
+    padding-top: 5%;
+}
